@@ -1,0 +1,27 @@
+#Sources 
+:sources: 
+  Intervention: 
+    :poll_interval: 10
+  Form: 
+    :poll_interval: 10
+  Section: 
+    :poll_interval: 10
+  Response: 
+    :poll_interval: 10
+  Question: 
+    :poll_interval: 10
+  QuestionValue: 
+    :poll_interval: 10
+ 
+:test: 
+  :redis: localhost:6379
+  :syncserver: http://localhost:9292/api/application/
+  :licensefile: settings/license.key
+:development: 
+  :redis: localhost:6379
+  :syncserver: http://localhost:9292/api/application/
+  :licensefile: settings/license.key
+:production: 
+  :redis: localhost:6379
+  :syncserver: http://localhost:9292/api/application/
+  :licensefile: settings/license.key
